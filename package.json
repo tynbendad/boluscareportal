@@ -1,0 +1,54 @@
+{
+    "author": "Horsetooth Software",
+    "dependencies": {},
+    "keywords": [],
+    "name": "bolusportal",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Bolus Careportal",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "BGV": 20,
+            "BG_UNITS": 14,
+            "CARB_RATIO": 22,
+            "CARB_RATIO_2": 26,
+            "CORR_FACTOR": 23,
+            "CORR_FACTOR_2": 27,
+            "CORR_RANGE_HI": 24,
+            "CORR_RANGE_HI_2": 28,
+            "CORR_RANGE_LO": 25,
+            "CORR_RANGE_LO_2": 29,
+            "DURATION": 11,
+            "ERROR": 9,
+            "GLUCOSE": 13,
+            "INSULIN": 15,
+            "INSULIN_INCREMENT": 19,
+            "IOB": 21,
+            "KEY_DATA": 5,
+            "KEY_EVENTTYPE": 8,
+            "KEY_VALUE": 6,
+            "PERCENT": 12,
+            "PROFILE": 18,
+            "SPLITEXT": 17,
+            "SPLITNOW": 16,
+            "SUCCESS": 10
+        },
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "9245f6b2-9599-4966-9eda-cd05b9f75f6f",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.1.0"
+}
